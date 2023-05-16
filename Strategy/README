@@ -1,4 +1,4 @@
-This is an example of the strategy design pattern implemented in C++. It is based on an example found in Head First Design Patterns and on an implementation of the strategy design pattern found here: 
+This is an example of the strategy design pattern in C++. It is based on an example found in Head First Design Patterns and on an implementation of the strategy design pattern found here: 
 https://refactoring.guru/design-patterns/strategy/cpp/example#example-0
 
 Compiling and Running:
