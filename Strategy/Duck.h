@@ -1,7 +1,8 @@
 #pragma once
 
-#include "QuackBehavior.h"
 #include "FlyBehavior.h"
+#include "QuackBehavior.h"
+
 #include <memory>
 
 class Duck{

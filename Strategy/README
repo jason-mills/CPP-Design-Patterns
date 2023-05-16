@@ -1,0 +1,13 @@
+This is an example of the strategy design pattern implemented in C++.
+
+Compiling and Running:
+The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
+Alternatively the makefile can be used to compile each class into its own object file and then into a single executable.
+If none of these options works, running g++ *.cpp should generate a working executable file.
+
+Here are some notes that I thought were important about its implementatation.
+
+Firstly the way that specific behaviors are implemented is by using the unique_ptr class. For example, each instance of a duck class or a class that inherits from the duck class implements its own behavior. Then you create a unique_ptr to that class and set the behavior to that pointer. Then you can dynamically change at runtime which behavior is being used. 
+
+One thing that is important to note is that classes that inherit from either behavior classes or the base class must have a virtual destructor. By doing this we allow each child to implement its own destructor. This is important because you can create memory leaks if you do not do this.
+
