@@ -1,6 +1,6 @@
 /*
  * This is an example implementation of the strategy design pattern. 
- * The motivation behind the strategy design pattern is that we have a set behaviors and a set of things that use those behaviors
+ * The motivation behind the strategy design pattern is that we have a set behaviors and a set of things that use those behaviors.
  * If we make all of those things inherit a default way of behaving this can have bad consequences.
  * Further, it would be nice if behavior could change dynamically.
  * By creating behaviors as interfaces that a base class has we can make both of these things possible.
