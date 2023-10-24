@@ -15,11 +15,16 @@ int main(){
     WeatherData weatherData;
     CurrentConditionsDisplay display(weatherData);
 
-    // Now when changes to the WeatherData object occure the display shows them
+    // Now when changes to the WeatherData object occur the display shows them
     weatherData.setMeasurements(66.0f, 30.0f, 30.0f);
     display.unregister();
 
     // Now when we make changes the display no longer displays them because we have unregistered the object
+    weatherData.setMeasurements(62.0f, 33.0f, 22.0f);
+
+    // We can reregister the object using a pointer if we have unregistered the object
+    CurrentConditionsDisplay* displayPtr = &display;
+    weatherData.registerObserver(displayPtr);
     weatherData.setMeasurements(62.0f, 33.0f, 22.0f);
 
     return 0;
