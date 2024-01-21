@@ -9,3 +9,5 @@ If none of these options works, running g++ *.cpp should generate a working exec
 Here are some notes that I thought were important about its implementatation.
 
 If you unregister the observer you can reregister it with a pointer.
+
+As a general rule you need a virtual destructor if you have a class with a virtual method
