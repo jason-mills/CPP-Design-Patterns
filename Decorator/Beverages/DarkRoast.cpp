@@ -9,6 +9,6 @@ DarkRoast::DarkRoast(const DarkRoast &darkRoast){
     description = darkRoast.description;
 }
 
-double DarkRoast::cost() {
+double DarkRoast::cost(){
     return 0.99;
 }
