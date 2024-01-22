@@ -4,7 +4,7 @@ https://en.wikipedia.org/wiki/Decorator_pattern#C++
 Compiling and Running:
 The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
 Alternatively the makefil can be used to compile each class into its own object file and then into a single executable.
-If none of these options works, running g++ *.cpp Beverages/*.cpp Beverages/Condiments/*.cpp.
+If none of these options works, running g++ *.cpp Beverages/*.cpp Beverages/Condiments/*.cpp should work.
 
 Here are some notes that I thought were important about its implementation.
 
