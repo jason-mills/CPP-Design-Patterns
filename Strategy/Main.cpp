@@ -6,11 +6,11 @@
  * By creating behaviors as interfaces that a base class has we can make both of these things possible.
  */
 
-#include "FlyWithWings.h"
-#include "MallardDuck.h"
-#include "NoFly.h"
-#include "Quack.h"
-#include "SqueakQuack.h"
+#include "Ducks/MallardDuck.h"
+#include "Behaviors/FlyWithWings.h"
+#include "Behaviors/NoFly.h"
+#include "Behaviors/Quack.h"
+#include "Behaviors/SqueakQuack.h"
 
 #include <memory>
 

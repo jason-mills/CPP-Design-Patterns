@@ -1,8 +1,8 @@
 #pragma once
 
 #include "Duck.h"
-#include "FlyWithWings.h"
-#include "Quack.h"
+#include "../Behaviors/FlyWithWings.h"
+#include "../Behaviors/Quack.h"
 
 #include <memory>
 

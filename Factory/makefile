@@ -1,17 +1,5 @@
-CXX = g++
-OUT ?= Main
+all:
+	g++ -g *.cpp */*.cpp */*/*.cpp -o Main
 
-SOURCES = $(shell find . -name "*.cpp")
-OBJECTS = $(SOURCES:.cpp=.o)
-
-$(OUT): $(OBJECTS)
-	$(CXX) -o $@ $^
-
-%.o: %.cpp
-	$(CXX) -c -o $@ $^	
-
-.PHONY: clean
-
-clean: 
-	find . -name Main -delete
-	find . -name "*.o" -delete
+clean:
+	rm Main

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "FlyBehavior.h"
-#include "QuackBehavior.h"
+#include "../Behaviors/FlyBehavior.h"
+#include "../Behaviors/QuackBehavior.h"
 
 #include <memory>
 
