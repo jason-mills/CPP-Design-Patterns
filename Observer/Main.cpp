@@ -6,8 +6,8 @@
  * This is better than giving the responsibility of checking for updates to other objects that would have to constantly poll for updates.
 */
 
-#include "CurrentConditionsDisplay.h"
-#include "WeatherData.h"
+#include "Observed/WeatherData.h"
+#include "Observer/CurrentConditionsDisplay.h"
 
 int main(){
     // We make a WeatherData object and a CurrentConditionsDisplay object

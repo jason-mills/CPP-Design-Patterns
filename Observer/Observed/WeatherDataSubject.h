@@ -1,6 +1,6 @@
 #pragma once
 
-#include "WeatherDataObserver.h"
+#include "../Observer/WeatherDataObserver.h"
 
 class WeatherDataSubject{
 private:

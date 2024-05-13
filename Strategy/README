@@ -3,7 +3,7 @@ https://refactoring.guru/design-patterns/strategy/cpp/example#example-0
 
 Compiling and Running:
 The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
-Alternatively the makefile can be used to compile each class into its own object file and then into a single executable.
+Alternatively the makefile can be used to compile into an executable.
 
 Here are some notes that I thought were important about its implementatation.
 

@@ -3,11 +3,10 @@ https://refactoring.guru/design-patterns/observer/cpp/example#example-0
 
 Compiling and Running:
 The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
-Alternatively the makefile can be used to compile each class into its own object file and then into a single executable.
-If none of these options works, running g++ *.cpp should generate a working executable file.
+Alternatively the makefile can be used to compile into an executable.
 
 Here are some notes that I thought were important about its implementatation.
 
 If you unregister the observer you can reregister it with a pointer.
 
-As a general rule you need a virtual destructor if you have a class with a virtual method
+As a general rule you need a virtual destructor if you have a class with a virtual method.

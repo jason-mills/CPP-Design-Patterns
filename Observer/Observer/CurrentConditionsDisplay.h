@@ -3,7 +3,7 @@
 #include <iostream>
 
 #include "WeatherDataObserver.h"
-#include "WeatherDataSubject.h"
+#include "../Observed/WeatherDataSubject.h"
 
 class CurrentConditionsDisplay : public WeatherDataObserver{
 private:
