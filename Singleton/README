@@ -1,0 +1,17 @@
+This is an example of the singleton design pattern in C++. It is based on an example found in Head First Design Patterns and on implementations of the singleton design pattern found here:
+https://refactoring.guru/design-patterns/singleton/cpp/example#example-1
+https://stackoverflow.com/questions/1008019/how-do-you-implement-the-singleton-design-pattern
+
+Compiling and Running:
+The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
+Alternatively the makefile can be used to compile into an executable.
+
+Here are some notes that I thought were important about its implementation.
+
+Despite the simplicity of this pattern there seems to be much discussion about how it should be implemented see below:
+https://nrt32.medium.com/implementing-a-singleton-in-c-8e20e6c3c96d
+
+I chose not to use the medium article's strategy of using atomic operations for simplicity. However, if I were going to use it for real I would look at performance with and without the atomic operations.
+
+ChoclateBoiler uses the mutex singleton approach.
+AltBoiler uses the Meyers apptoach.
