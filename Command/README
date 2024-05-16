@@ -1,0 +1,10 @@
+This is an example of the command design pattern in C++. It is based on an example found in Head First Design Patterns.
+
+Compiling and Running:
+The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
+Alternatively the makefile can be used to compile each class into an executable.
+
+Here are some notes I thought were important about its impleentation.
+
+The implementation here is near identical to the Java version found in HFDS. The key difference being the use of pointers as this is C++.
+The implementation here is simple enough that basic pointers are sufficient. In another use case I could see it necessary to allocate memory in order to make this pattern work.
