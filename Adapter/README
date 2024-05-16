@@ -1,0 +1,9 @@
+This is an example of the adapter design pattern in C++. It is based on an exmple found in Head First Design Patterns.
+
+Compiling and Running:
+The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
+Alternatively the makefile can be used to compile an executable.
+
+Here are some notes that I thought were important about its implementation.
+
+I would not personally define this as a "design pattern". The only thing we are doing here is making a class provide the methods that are specified by an interface. If you are using interfaces in your design this is a natural consequence.

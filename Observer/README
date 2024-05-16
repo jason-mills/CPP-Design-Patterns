@@ -3,7 +3,7 @@ https://refactoring.guru/design-patterns/observer/cpp/example#example-0
 
 Compiling and Running:
 The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
-Alternatively the makefile can be used to compile into an executable.
+Alternatively the makefile can be used to compile an executable.
 
 Here are some notes that I thought were important about its implementatation.
 
