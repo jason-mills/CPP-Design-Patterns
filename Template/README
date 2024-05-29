@@ -1,0 +1,9 @@
+This is an example of the template design pattern in C++. It is based on an example found in Head First Design Patterns.
+
+Compiling and Running: 
+The files provided in the .vscode folder should be sufficient to allow this program to run provided that the compiler path has been set.
+Alternatively the makefile can be used to compile each class into an executable.
+
+Here are some notes that I thought were important about its implementation.
+
+As with other examples it's important to use have virtual destructors in the partent class that the inheriting class can override to prevent memory issues.
